@@ -1,70 +1,96 @@
-<nav style="text-align: center; margin-bottom: 20px;">
-  <a href="about.html" style="margin: 0 10px;">About Us</a> |
-  <a href="contact.html" style="margin: 0 10px;">Contact Us</a> |
-  <a href="privacy.html" style="margin: 0 10px;">Privacy Policy</a> |
-  <a href="terms.html" style="margin: 0 10px;">Terms & Conditions</a>
-</nav>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OneClickPDF</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <title>OneClickPDF – All Your PDF Tools in One Click</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="All your PDF tools in one click – Merge, Convert, Compress, and more.">
+  <meta name="keywords" content="PDF tools, Merge PDF, Convert PDF, Compress PDF, Free PDF tools">
+  <meta name="author" content="OneClickPDF">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
   <style>
     body {
       font-family: 'Quicksand', sans-serif;
-      background: #f1f9f6;
-      color: #2f4f4f;
+      background-color: #f2efe8;
+      color: #2e2e2e;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #7fb8a4;
+      padding: 20px;
       text-align: center;
-      padding: 40px 20px;
+      color: white;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
     }
     h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
-      color: #3c706d;
-    }
-    p.tagline {
-      font-size: 1.2em;
-      margin-bottom: 2em;
-      color: #507e7c;
+      text-align: center;
+      margin-top: 40px;
     }
     .tools {
       display: flex;
-      flex-direction: column;
-      gap: 15px;
-      max-width: 300px;
-      margin: auto;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px;
     }
-    a.tool-button {
-      display: block;
-      padding: 14px;
-      background-color: #7ecdc3;
-      border-radius: 12px;
-      text-decoration: none;
+    .tool-button {
+      background-color: #d28f8f;
+      border: none;
       color: white;
-      font-weight: bold;
-      transition: background 0.3s ease;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
     }
-    a.tool-button:hover {
-      background-color: #5bb3a9;
+    .tool-button:hover {
+      background-color: #c07272;
     }
-    .logo {
-      width: 100px;
-      margin-bottom: 20px;
+    footer {
+      background-color: #7fb8a4;
+      color: white;
+      text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
 <body>
-  <img class="logo" src="logo.png" alt="OneClickPDF logo" />
-  <h1>OneClickPDF</h1>
-  <p class="tagline">All your PDF tools in one click</p>
+  <header>
+    <h2>OneClickPDF</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
 
+  <h1>All Your PDF Tools in One Click</h1>
   <div class="tools">
-    <a class="tool-button" href="https://www.ilovepdf.com/merge_pdf" target="_blank">Merge PDF</a>
-    <a class="tool-button" href="https://www.ilovepdf.com/split_pdf" target="_blank">Split PDF</a>
-    <a class="tool-button" href="https://www.ilovepdf.com/compress_pdf" target="_blank">Compress PDF</a>
+    <a href="https://www.ilovepdf.com/merge_pdf" class="tool-button" target="_blank">Merge PDF</a>
+    <a href="https://www.ilovepdf.com/pdf_to_word" class="tool-button" target="_blank">PDF to Word</a>
+    <a href="https://www.ilovepdf.com/compress_pdf" class="tool-button" target="_blank">Compress PDF</a>
   </div>
+
+  <footer>
+    &copy; 2025 OneClickPDF. All rights reserved.
+  </footer>
 </body>
 </html>
+
